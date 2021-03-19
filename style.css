@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap'); 
+
+
+body{
+  font-family: 'Titillium Web', sans-serif; 
+}
+.services_title h3{
+    font-size: 40px;
+    padding-top: 4rem;
+}
+h4{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 1rem;
+    color: #907F60;
+}
+
+/* header section start */
+
+header{
+    background-color: #87509C;
+    background-size:85vh;
+   height: 550px;
+}
+hr{
+    border-bottom: 3px solid #b9bec0;
+    width: 80px;
+}
+.my_row{
+ max-width: 960px;
+ margin: 0 auto;
+ 
+}
+.my_col{
+    width: 23%;
+    margin-left: 10px;
+    display: inline-block;
+    margin-bottom: 2rem;
+    padding:10px;
+}
+.my_col2{
+    width: 46%;
+    margin: 10px;
+    display: inline-block;
+    margin-bottom: 2rem;
+    padding:10px;
+    overflow: hidden;
+}
+#header_section h1{
+    color: #fff;
+    text-align: center;
+    font-size: 38px;
+}
+#header_section li{
+   
+    margin-right: 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    text-transform: uppercase;
+  
+}
+#header_section li:hover{
+    background: #643A79;
+    
+   
+   
+  
+}
+.active{
+    background: #643A79;
+    border-radius: 10px;
+}
+
+.btn_2{
+    background: rgb(241, 111, 50);
+    width: 271px;
+    height: 59px;
+    color: rgb(255, 255, 255);
+    box-shadow: rgb(241 111 77) 0px 5px 4px;
+}
+/* header section end */
+
+/* services section start */
+#services_section{
+    background: #17C2A4;
+}
+
+
+/* services section end */
+
+/* our team section start */
+#our_team_section{
+   color: #000;
+   background: #E7F1F8;
+}
+.socila_media i{
+    color: #fff;
+    background: rgb(144, 144, 144);
+    border-radius: 50%;
+    padding: 4%;
+    width: 16%;
+    font-size: 100%;
+    transition: .5s;
+}
+.socila_media i:hover{
+  
+    background: rgb(3, 70, 255);
+    transform: rotate(360deg);
+  
+    
+}
+/* our team section end */
+
+
+
+svg.radial-progress {
+    height: auto;
+    max-width: 200px;
+    padding: 1em;
+    transform: rotate(-90deg);
+    width: 100%;
+  }
+  
+  svg.webdesign circle {
+    fill: rgba(0,0,0,0);
+    stroke: #30bae7;
+    stroke-dashoffset: 219.91148575129; 
+    stroke-width: 7px;
+  }
+  svg.htmlcss circle {
+    fill: rgba(0,0,0,0);
+    stroke: #D74680;
+    stroke-dashoffset: 219.91148575129; 
+    stroke-width: 7px;
+  }
+  svg.graphicdesign circle {
+    fill: rgba(0,0,0,0);
+    stroke: #15C7A8;
+    stroke-dashoffset: 219.91148575129; 
+    stroke-width: 7px;
+  }
+  svg.uiux circle {
+    fill: rgba(0,0,0,0);
+    stroke: #EB7D4B;
+    stroke-dashoffset: 219.91148575129; 
+    stroke-width: 7px;
+  }
+  
+  svg.radial-progress circle.incomplete { opacity: 0.25; }
+  
+  svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+  
+  svg.webdesign text {
+    fill: #30bae7;
+    text-anchor: middle;
+  }
+  svg.htmlcss text {
+    fill: #D74680;
+    text-anchor: middle;
+  }
+  svg.graphicdesign text {
+    fill: #15C7A8;
+    text-anchor: middle;
+  }
+  svg.uiux text {
+    fill: #EB7D4B;
+    text-anchor: middle;
+  }
+  #skils_section p{
+      font-size: 24px;
+      color: #3c4761;
+      font-weight: bold;
+      text-align: center;
+  }
+
+
+  /* porfolio bsection */
+  #porfolio_section{
+      background: #FFDD99;
+  }
+
+
+  .hidden { display: none; }
+  
+  #filter {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  #filter button {
+    border: 0;
+    background-color: #EBC985;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+    padding: 5px 20px;
+  }
+  
+  #filter button.active { background-color: #fff; }
+  
+  #filter button:focus { outline: 0; }
+  
+
+/* people say section start */
+  #people_say{
+      background: #D74680;
+      color: #fff;
+      font-family: arial;
+    
+  }
+ .media p{
+   
+   font-style: italic;
+ }
+ .media h3{}
+ .media h6{
+     color: #ffdd99;
+ }
+
+  /* people say section end */
+
+/* contact us sectoin start */
+  #contact_us{
+     background: #3C5499;
+     color: #fff;
+     margin: auto;
+  }
+form tr{
+padding-left: 10rem;
+}
+  #contact_us input[type=text]{
+    width: 306px;
+    margin-right: 19px;
+    margin-bottom: 10px;
+    height: 50px;
+    background: #273A71;
+    border: none;
+    padding-left: 1rem;
+    color: #fff;
+  
+  }
+  #contact_us textarea{
+    width:603px;
+    background: #273A71;
+    border: none;
+    padding-left: 1rem;
+    
+  }
+  .contact{
+    margin-left: 28%;
+  }
+  ::placeholder{
+      color: #fff;
+  }
+  #contact_us button{
+      width: 200px;
+      height: 50px;
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+  }
+/* contact us sectoin end */
+
+#footter{
+    background: #344B8E;
+}
+.social_media{
+    text-align: center;
+}
+#footter a{
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+}
+#footter a:hover{
+    color:#6075b4;
+}
+
+
+
+
+@media(max-width:768px){
+     
+  .my_col {
+    width: 100%;
+    font-size: 26px;
+  }
+  header {
+ 
+    height: auto;
+  }
+
+  #header_section h1 {
+  
+    font-size: 24px;
+}
+.services_title h3 {
+	font-size: 1.8rem;
+	
+}
+h4 {
+  font-size: 2rem;
+   margin-top: 0px;
+ 
+}
+body {
+	text-align: center;
+}
+.mr-5, .mx-5 {
+  margin-right: 1rem !important;
+}
+.my_col2 {
+  width: 100%;
+ padding-right: 2.3rem;
+}
+#porfolio_section img {
+
+	width: 100%;
+}
+#contact_us textarea {
+	width: 300px;
+
+}
+.contact {
+	margin-left: 0%;
+}
+
+}
+#contact_us input[type="text"] {
+    width: 300px;
+    margin-right: 0px;
+}
+#contact_us button {
+
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+p {
+
+  margin-bottom: 1rem;
+  padding-right: 1rem;
+
+}
+
+
+
+}
